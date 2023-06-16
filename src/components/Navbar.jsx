@@ -21,17 +21,17 @@ const Navbar = () => {
         </h1>
         <div className="flex gap-3 ">
           <Link to="/clerk">
-            <button className="bg-emerald-500 p-2 border border-emerald-800">
+            <button className="bg-emerald-500 p-2 border rounded-md border-emerald-800">
               Clerk
             </button>
           </Link>
           <Link to="/supervisor">
-            <button className="bg-emerald-500 p-2 border border-emerald-800">
+            <button className="bg-emerald-500 p-2 border rounded-md border-emerald-800">
               Supervisor
             </button>
           </Link>
           <Link to="/officer">
-            <button className="bg-emerald-500 p-2 border border-emerald-800">
+            <button className="bg-emerald-500 p-2 border rounded-md border-emerald-800">
               Community Officer
             </button>
           </Link>

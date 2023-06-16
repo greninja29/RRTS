@@ -54,7 +54,7 @@ const Account = () => {
         </div>
         <button
           onClick={handleSignOut}
-          className="p-2 bg-gray-800 border border-gray-800"
+          className="p-2 rounded-md bg-gray-800 border border-gray-800"
         >
           Logout
         </button>
@@ -85,7 +85,7 @@ const Account = () => {
             onChange={(e) => setMaterials(e.target.value)}
           />
           <button
-            className="p-2 text-white bg-gray-800 border border-gray-800"
+            className="p-2 rounded-md text-white bg-gray-800 border border-gray-800"
             onClick={update}
           >
             Update

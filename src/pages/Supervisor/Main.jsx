@@ -79,7 +79,7 @@ const Account = () => {
           </div>
           <button
             onClick={handleSignOut}
-            className="p-2 bg-gray-800 border border-gray-800"
+            className="p-2 rounded-md bg-gray-800 border border-gray-800"
           >
             Logout
           </button>
@@ -148,14 +148,14 @@ const Account = () => {
                   Is Complete
                 </label>
                 <button
-                  className="p-2 bg-gray-800 border border-gray-800"
+                  className="p-2 rounded-md bg-gray-800 border border-gray-800"
                   onClick={() => updatedata(complain.id)}
                 >
                   Update
                 </button>
                 <br />
                 <button
-                  className="p-2 bg-gray-800 border border-gray-800"
+                  className="p-2 rounded-md bg-gray-800 border border-gray-800"
                   onClick={() => deletedata(complain.id)}
                 >
                   delete

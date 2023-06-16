@@ -21,7 +21,10 @@ const Officer = () => {
       <div className="flex justify-center h-55 items-center">
         {user?.displayName ? (
           <div className="space-x-7">
-            <button className="p-3 font-bold text-3xl" onClick={handleSignOut}>
+            <button
+              className="p-3 rounded-md font-bold text-3xl"
+              onClick={handleSignOut}
+            >
               LogOut
             </button>
             <button className="bg-emerald-500 rounded p-3 text-white font-bold text-3xl border border-emerald-500">
@@ -35,13 +38,13 @@ const Officer = () => {
           </div>
         ) : (
           <button className="bg-emerald-500 rounded p-3 text-white font-bold text-3xl border border-emerald-500">
-          <Link
-            // className="bg-emerald-500 rounded p-3 text-white font-bold text-3xl"
-            to="/officersignin"
-          >
-            Access
-          </Link>
-        </button>
+            <Link
+              // className="bg-emerald-500 rounded p-3 text-white font-bold text-3xl"
+              to="/officersignin"
+            >
+              Access
+            </Link>
+          </button>
         )}
       </div>
     </div>
